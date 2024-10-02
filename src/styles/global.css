@@ -1,0 +1,47 @@
+:root {
+  --color-background: #f9f3f3;
+  --color-primary: #846666;
+  --color-secondary: #be9b7b;
+  --color-text: #333333;
+  --font-heading: 'YoonChildfundkoreaManSeh', 'Noto Serif', serif;
+  --font-body: 'YoonChildfundkoreaMinGuk', serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+}
+
+h5 {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  font-size: small;
+  font-weight: normal;
+  margin: 0 auto;
+}
+
+h6 {
+  font-family: var(--font-body);
+  color: var(--color-primary);
+  font-size: larger;
+  margin: 0 auto;
+}
+
+p {
+  font-family: var(--font-body);
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

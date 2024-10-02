@@ -1,0 +1,32 @@
+.invitation-link {
+    text-align: center;
+    margin: 1rem 0;
+
+    a {
+      color: #5643ff;
+      text-decoration: underline;
+    }
+}
+
+.KakaoShareButton {
+    button {
+      
+      background-color: #6e5555 !important; // 어두운 색상으로 변경
+        transform: translateY(-2px); // 약간 위로 이동
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2); // 그림자 추가
+      color: #FFFFFF !important;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      
+  
+      &:hover {
+        background-color: #846666 !important;// 어두운 색상으로 변경
+        transform: translateY(0px); // 약간 위로 이동
+        box-shadow: 0 5px 8px rgba(0,0,0,0.2); // 그림자 추가
+      }
+    }
+  }

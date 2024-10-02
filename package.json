@@ -1,0 +1,38 @@
+{
+  "name": "my-wedding-invitation",
+  "homepage": "https://chrois27.github.io/WEDDING-INVITATION/",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.12",
+    "dayjs-plugin-calendar-sets": "^1.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "react-toastify": "^10.0.5",
+    "swiper": "^11.1.10",
+    "vite": "^5.4.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "gh-pages": "^6.1.1",
+    "globals": "^15.9.0",
+    "sass": "^1.79.4",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.1"
+  }
+}

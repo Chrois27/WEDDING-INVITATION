@@ -1,0 +1,48 @@
+.directions {
+    padding: 2rem;
+    
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+    .map-link {
+        text-align: center;
+        margin: 1rem 0;
+    
+        a {
+          color: #5643ff;
+          text-decoration: underline;
+        }
+      }
+    
+      .map-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    
+        a {
+          display: inline-block;
+          transition: transform 0.2s;
+    
+          &:hover {
+            transform: scale(1.05);
+          }
+    
+          img {
+            width: 60px;
+            height: auto;
+            border-radius: 8px;
+          }
+        }
+      }
+  
+    .info {
+      margin-top: 1rem;
+      text-align: left;
+  
+      p {
+        margin: 0.5rem 0;
+      }
+    }
+  }

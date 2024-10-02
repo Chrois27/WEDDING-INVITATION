@@ -1,0 +1,165 @@
+/* App.css */
+
+/* 전체 앱 스타일 */
+.App {
+  text-align: center;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 0 10px; /* 모바일에서는 좌우 여백을 줄임 */
+  }
+}
+  
+@media screen and (min-width: 768px) {
+  .app-container {
+    max-width: 800px; /* 또는 원하는 최대 너비 */
+    margin: 0 auto;
+    padding: 0 20px; /* PC에서의 좌우 패딩 */
+  }
+}
+
+/* 메인 컨텐츠 영역 */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 섹션 스타일 */
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+  font-size: 2rem;
+  margin-top: 7rem;
+  margin-bottom: 0rem;
+}
+
+/* 예식 일시 섹션 */
+.wedding-date-time {
+  text-align: right;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-right: 0rem;
+  color: var(--color-secondary);
+}
+
+/* 갤러리 스타일 */
+.gallery-margin {
+  margin-top: 2rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery img {
+  margin-top: 2rem;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* 버튼 스타일 */
+button {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--color-secondary);
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  main {
+    padding: 10px;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+
+  .wedding-date-time {
+    font-size: 1rem;
+  }
+}
+
+/* 추가적인 컴포넌트별 스타일 */
+/* 예: Cover, Calendar, DdayCounter 등의 스타일을 여기에 추가할 수 있습니다 */
+
+/* Cover 컴포넌트 스타일 */
+.cover {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.relationship-duration {
+  font-weight: bold;
+  font-size: larger;
+  color: #846666; /* 또는 원하는 강조 색상 */
+}
+
+.greeting-message {
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: center;
+  white-space: pre-line;
+  margin: 2em 0;
+}
+
+/* Calendar 컴포넌트 스타일 */
+.calendar {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* DdayCounter 컴포넌트 스타일 */
+.dday-counter {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+/* AccountInfo 컴포넌트 스타일 */
+.account-info {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* KakaoShareButton 컴포넌트 스타일 */
+.addtionalInfo {
+  background-color: #FEE500;
+  color: #000000;
+}
+
+/* Footer 컴포넌트 스타일 */
+footer {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 20px 0;
+  margin-top: 40px;
+}

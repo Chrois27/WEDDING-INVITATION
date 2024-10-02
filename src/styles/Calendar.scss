@@ -1,0 +1,51 @@
+.calendar {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR', sans-serif;
+  
+    .calendar-header {
+      text-align: center;
+      margin-bottom: 1rem;
+
+      h2 {
+        font-family: var(--font-body);
+        font-size: 1.5rem;
+        color: #333;
+      }
+    }
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+  
+      th, td {
+        font-family: var(--font-body);
+        text-align: center;
+        padding: 0.5rem;
+        border: 1px solid #ddd;
+      }
+  
+      th {
+        background-color: #f0f0f0;
+        font-weight: bold;
+      }
+    
+      .sunday {
+        color: #ff0000;
+      }
+    
+      .saturday {
+        color: #0000ff;
+      }
+
+      .other-month {
+        color: #ccc;
+      }
+    
+      .current-day {
+        background-color: #e0e0e0;
+        font-weight: bold;
+      }
+    }
+  }
